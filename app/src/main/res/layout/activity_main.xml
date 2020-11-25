@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A4FFF9"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TELEPHONY"/>
+
+
+    <TextView
+        android:id="@+id/secT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rhemz(09458171954)"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:background="@drawable/message"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/msgT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/bSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:onClick="btnSend"
+        android:text="Send SMS"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:onClick="btnCALL"
+        android:text="Call"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/sTtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leriza(09452241662)"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="160dp"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:background="@drawable/message"
+        android:layout_marginTop="180dp"/>
+
+    <EditText
+        android:id="@+id/mTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:layout_marginTop="180dp"/>
+
+    <Button
+        android:id="@+id/btnS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:onClick="bSend"
+        android:text="Send SMS"
+        android:layout_marginTop="230dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:onClick="bnCALL"
+        android:text="Call"
+        android:layout_marginTop="230dp"/>
+
+    <TextView
+        android:id="@+id/secText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ana(09157925971)"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="290dp"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:background="@drawable/message"
+        android:layout_marginTop="310dp"/>
+
+    <EditText
+        android:id="@+id/msgText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:layout_marginTop="310dp"/>
+
+    <Button
+        android:id="@+id/btnSEND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:onClick="btSend"
+        android:text="Send SMS"
+        android:layout_marginTop="360dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:onClick="btCALL"
+        android:text="Call"
+        android:layout_marginTop="360dp"/>
+
+
+
+    <TextView
+        android:id="@+id/Txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boggie(09959610619)"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="420dp"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:background="@drawable/message"
+        android:layout_marginTop="430dp"/>
+
+    <EditText
+        android:id="@+id/msTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:layout_marginTop="430dp"/>
+
+    <Button
+        android:id="@+id/bnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:onClick="bnSend"
+        android:text="Send SMS"
+        android:layout_marginTop="470dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:onClick="bCALL"
+        android:text="CALL"
+        android:layout_marginTop="470dp"/>
+
+    <TextView
+        android:id="@+id/secTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baboy Juliana(09157925958)"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="520dp"/>
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:background="@drawable/message"
+        android:layout_marginTop="530dp"/>
+
+    <EditText
+        android:id="@+id/msgTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:layout_marginTop="530dp"/>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:onClick="Send"
+        android:text="Send SMS"
+        android:layout_marginTop="570dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:onClick="CALL"
+        android:text="Call"
+        android:layout_marginTop="570dp"/>
+
+
+
+
+
+</RelativeLayout>
+
